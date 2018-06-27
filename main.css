@@ -1,0 +1,89 @@
+div.one {
+    margin: auto;
+    width: 80%;
+    height: 700px;
+    border: 15px solid gray;
+    border-radius: 3%;
+    border-bottom: solid 50px;
+    padding: 2%;
+    text-align: center;
+}
+
+#startImage {
+    border-radius: 8px;
+    border: 2px solid #fffdb9;
+    }
+
+h1{
+    border-radius: 5%;
+    border: 3px solid #fffdb9;
+    margin: auto;
+    background-color: #999999;
+    text-align: center;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+}
+
+input[type=text] {
+    width: 218px;
+}
+
+input[type=submit] {
+    background: black;
+    color: white;
+     padding: 9px;
+    font-size: 18px;
+}
+
+form {
+    margin: 2%;
+}
+
+div.two button{
+     background: black;
+    color: white;
+     padding: 9px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+hr {
+    color: black;
+}
+
+#result {
+    color: black;
+}
+
+img {
+    border-radius: 8px;
+    border: 2px solid #fffdb9;
+}
+
+h2 {
+  color: green;  
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    font-style: italic;
+}
+
+@media screen and (max-width:700px){
+    #randImage {
+        width:80%;
+        height: 80%;
+    }
+    #startImage {
+         width:80%;
+        height: 80%;
+    }
+}
+
+
+#prizes {
+    color:magenta;
+}
